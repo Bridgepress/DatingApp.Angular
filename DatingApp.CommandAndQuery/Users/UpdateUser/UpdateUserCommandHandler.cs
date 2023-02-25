@@ -18,7 +18,7 @@ namespace DatingApp.CommandAndQuery.Users.UpdateUser
         public async Task<Unit> Handle(UpdateUserCommand request, CancellationToken cancellationToken)
         {
             await _userService.UpdateUser(request.MemberUpdateDto);
-            return  Unit.Value;
+            return Unit.Value;
         }
     }
 }

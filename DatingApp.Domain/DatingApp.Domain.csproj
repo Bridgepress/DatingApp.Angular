@@ -6,18 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Initializer\UserSeedData.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Initializer\UserSeedData.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="CloudinaryDotNet" Version="1.20.0" />
     <PackageReference Include="EntityFramework" Version="6.4.4" />
@@ -31,11 +19,6 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.26.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\DatingApp.DataAccess\DatingApp.DataAccess.csproj" />
-    <ProjectReference Include="..\DatingApp.Shared\DatingApp.Shared.csproj" />
   </ItemGroup>
 
 </Project>

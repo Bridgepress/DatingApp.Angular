@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DatingApp.Domain\DatingApp.Domain.csproj" />
+    <ProjectReference Include="..\DatingApp.API.Contracts\DatingApp.API.Contracts.csproj" />
     <ProjectReference Include="..\DatingApp.Shared\DatingApp.Shared.csproj" />
   </ItemGroup>
 

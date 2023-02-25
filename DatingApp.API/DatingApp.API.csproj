@@ -13,9 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DatingApp.API.Core\DatingApp.API.Core.csproj" />
+    <ProjectReference Include="..\DatingApp.API.Repository.Implementation\DatingApp.API.Repository.Implementation.csproj" />
+    <ProjectReference Include="..\DatingApp.API.Services\DatingApp.API.Services.csproj" />
     <ProjectReference Include="..\DatingApp.CommandAndQuery\DatingApp.CommandAndQuery.csproj" />
-    <ProjectReference Include="..\DatingApp.DataAccess\DatingApp.DataAccess.csproj" />
-    <ProjectReference Include="..\DatingApp.Domain\DatingApp.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
